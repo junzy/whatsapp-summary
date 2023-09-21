@@ -17,7 +17,7 @@ openai.api_key = "[REDACTED]"
 
 # Initialize Vonage client
 vonage_client = vonage.Client(
-    key="b14d2682", secret="LV4bOnpbHeTgHLTK")
+    key="key", secret="secret")
 vonage_whatsapp = vonage.Sms(client=vonage_client)
 
 # Database setup
