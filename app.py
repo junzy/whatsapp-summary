@@ -63,7 +63,7 @@ def send_message(text):
         "Content-Type": "application/json",
         "Accept": "application/json"
     }
-    auth = ("b14d2682", "LV4bOnpbHeTgHLTK")
+    auth = ("key", "secret")
     data = {
         "from": "14157386102",
         "to": "4915775649185",
